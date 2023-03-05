@@ -1,0 +1,25 @@
+0. iniciacion del proyecto y limpiar zona de trabajo
+npm create vite@latest
+eliminamoslos css
+eliminamos losimports del codigo
+
+1.instalamos react router dom 
+
+npm i react-router-dom
+
+2.configurar el codigo
+
+-En el main se asocia un componente al componente de id root
+
+-vamos a ese componente e importamos 3 elementos de react router dom, con el objetivo que ese componente actue como el que gestiona las rutas
+
+
+para esto necesitamos un import asi
+
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+donde Router es quien se encarga de decir que aqui es donde se buscan las rutas del navegador
+Routes es donde especificamos que aqui hay rutas
+y Route es como asociamos una ruta con un componente
+
+Ejemplos en el codigo
